@@ -1,12 +1,12 @@
 <h1 align="center">
   $${\color{lightblue}Welcome \space \color{lightblue}to \space \color{lightblue}{Python} \space \color{lightblue}{Playground}}$$✨🕊️
   <br><br>
-  <img src="logo/python.png" width="40"/>&nbsp;
-  <img src="logo/numpy.png" width="50"/>&nbsp;
-  <img src="logo/pandas.png" width="30"/>&nbsp;
-  <img src="logo/matplotlib.png" width="40"/>&nbsp;
-  <img src="logo/seaborn.png" width="40"/>&nbsp;
-  <img src="logo/scipy.png" width="45"/>&nbsp;
+  <a href="https://www.python.org/"><img src="logo/python.png" width="40" title="Python"/></a>&nbsp;
+  <a href="https://numpy.org/"><img src="logo/numpy.png" width="50" title="Numpy"/></a>&nbsp;
+  <a href="https://pandas.pydata.org/docs/"><img src="logo/pandas.png" width="30" title="Pandas"/></a>&nbsp;
+  <a href="https://matplotlib.org/"><img src="logo/matplotlib.png" width="40" title="Matplotlib"/></a>&nbsp;
+  <a href="https://seaborn.pydata.org/tutorial.html"><img src="logo/seaborn.png" width="40" title="Seaborn"/></a>&nbsp;
+  <a href="https://docs.scipy.org/doc/scipy/"><img src="logo/scipy.png" width="45" title="SciPy"/></a>&nbsp;
 </h1>
 
 ### 📌About Repository
