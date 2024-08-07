@@ -3,6 +3,7 @@
   <br><br>
   <img src="logo/python.png" width="40"/>&nbsp;
   <img src="logo/numpy.png" width="50"/>&nbsp;
+  <img src="logo/pandas.png" width="50"/>&nbsp;
 </h1>
 
 ### 📌About Repository
