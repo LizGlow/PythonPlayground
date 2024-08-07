@@ -1,7 +1,8 @@
 <h1 align="center">
   $${\color{lightblue}Welcome \space \color{lightblue}to \space \color{lightblue}{Python} \space \color{lightblue}{Playground}}$$✨🕊️
   <br><br>
-  <img src="logo/python.png" width="40"/>
+  <img src="logo/python.png" width="40"/>&nbsp;
+  <img src="logo/numpy.png" width="50"/>&nbsp;
 </h1>
 
 ### 📌About Repository
