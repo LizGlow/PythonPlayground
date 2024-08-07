@@ -4,6 +4,9 @@
   <img src="logo/python.png" width="40"/>&nbsp;
   <img src="logo/numpy.png" width="50"/>&nbsp;
   <img src="logo/pandas.png" width="30"/>&nbsp;
+  <img src="logo/matplotlib.png" width="40"/>&nbsp;
+  <img src="logo/seaborn.png" width="40"/>&nbsp;
+  <img src="logo/scipy.png" width="45"/>&nbsp;
 </h1>
 
 ### 📌About Repository
