@@ -31,4 +31,8 @@ pip install scipy
 - Analyze Sales for 6 months
 
 
+### 🤝Contributions
+I am happy to learn and accept all the feedback from everyone who wants to share or fix my code. Moreover, you can contribute to this project by sharing your code or knowledge. Let's learn Python for Data Science together!😀
+Enjoy Coding 💙
+
 
