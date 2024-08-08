@@ -17,12 +17,14 @@ However, it is mainly focused on **Data Science and Data Analytics** fields only
 - 🐍 Python 3.12.3 or later
 - 🔧 IDE PyCharm
 
-> ### Installation Commands (Internet Connection is required)
-- pip install numpy
-- pip install pandas
-- pip install matplotlib
-- pip install seaborn
-- pip install scipy
+### 📚Libraries Installation 
+```
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install seaborn
+pip install scipy
+```
 
 ### 💼Related Works
 - Analyze Students Favorite subjects
