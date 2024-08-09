@@ -59,7 +59,7 @@ def load_cleaned_df():
 
 def load_scores():
     global score
-    # score = pd.read_csv(r'../simulated_dataset/scores.csv')
+    # score = pd.read_csv(r'../simulated_dataset/raw_scores.csv')
     #
     # # type convertion from object to string
     # score['Period'] = score['Period'].astype('string')
@@ -77,10 +77,14 @@ def load_scores():
     score = pd.read_csv(r'../simulated_dataset/cleaned_scores_df.csv')
 
 
-def add_stu_id_to_score():
-    score['Student_ID'] = score['Student_ID'].map(cleaned_data['stu_id'])
+def map_student_id_between_2_df():
+
+    # this works until the student_ID value matches stu_id value
+    # merged_df = pd.merge(score, cleaned_data,left_on='Student_ID', right_on='stu_id', how='left')
+
+    print("")
     # to prevent auto generated column 'Unnamed'
-    score.to_csv(r'../simulated_dataset/cleaned_scores_df.csv', index=False)
+    # score.to_csv(r'../simulated_dataset/cleaned_scores_df.csv', index=False)
 
 def analyze_score():
     # to select multi columns we use [[]]
@@ -94,5 +98,5 @@ if __name__ == '__main__':
     load_cleaned_df()
     load_scores()
     # print(score)
-    # add_stu_id_to_score()
+    map_student_id_between_2_df()
     analyze_score()
