@@ -48,9 +48,51 @@ def organize_data():
     print(f'DOB column before converting ::: \n {data['dob'].dtypes}')
     data['dob'] = pd.to_datetime(data['dob'])
     print(f'Convert String to date in DOB col::: \n {data['dob'].dtypes}')
+    data.to_csv(r'../simulated_dataset/cleaned_stu_df.csv', index=False)
 
-    # to be continue
+cleaned_data = None
+score = None
+def load_cleaned_df():
+    global cleaned_data
+    cleaned_data = pd.read_csv(r'../simulated_dataset/cleaned_stu_df.csv')
+    print(cleaned_data.info())
+
+def load_scores():
+    global score
+    # score = pd.read_csv(r'../simulated_dataset/scores.csv')
+    #
+    # # type convertion from object to string
+    # score['Period'] = score['Period'].astype('string')
+    #
+    # # update period -> January, February, March
+    # for index, row in score.iterrows():
+    #    if row['Period'] == 'Q1_2024':
+    #        score.at[index, 'Period'] = 'January'
+    #    elif row['Period'] == 'Q2_2024':
+    #         score.at[index, 'Period'] = 'February'
+    #    else:
+    #        score.at[index, 'Period'] = 'March'
+    #
+    # score.to_csv(r'../simulated_dataset/cleaned_scores_df.csv', index=False)
+    score = pd.read_csv(r'../simulated_dataset/cleaned_scores_df.csv')
+
+
+def add_stu_id_to_score():
+    score['Student_ID'] = score['Student_ID'].map(cleaned_data['stu_id'])
+    # to prevent auto generated column 'Unnamed'
+    score.to_csv(r'../simulated_dataset/cleaned_scores_df.csv', index=False)
+
+def analyze_score():
+    # to select multi columns we use [[]]
+    # score['Total'] = score.iloc[:, 2:6].sum(axis=1)
+    # score.to_csv(r'../simulated_dataset/cleaned_scores_df.csv', index=False)
+    print(score)
 
 if __name__ == '__main__':
-    load_data()
-    organize_data()
+    # load_data()
+    # organize_data()
+    load_cleaned_df()
+    load_scores()
+    # print(score)
+    # add_stu_id_to_score()
+    analyze_score()
