@@ -10,7 +10,7 @@
 </h1>
 
 ### 📌About Repository
-This repository is welcome to all **$${\color{yellow}Python \space Rookies}$$** like me. It was created to inspire all beginners who like to play with Python code. 
+This repository is welcome to all **$${\color{blue}Python \space Rookies}$$** like me. It was created to inspire all beginners who like to play with Python code. 
 However, it is mainly focused on **Data Science** field only.
 
 ### 🛠️Requirements
