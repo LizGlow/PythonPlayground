@@ -90,7 +90,8 @@ def analyze_score():
     # to select multi columns we use [[]]
     # score['Total'] = score.iloc[:, 2:6].sum(axis=1)
     # score.to_csv(r'../simulated_dataset/cleaned_scores_df.csv', index=False)
-    print(score)
+    cleaned_data['stu_id'] = cleaned_data['stu_id'].replace(1, 30)
+    print(cleaned_data['stu_id'].dtypes)
 
 if __name__ == '__main__':
     # load_data()
